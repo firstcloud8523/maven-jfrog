@@ -27,16 +27,15 @@
  <distributionManagement>
     <repository>
         <id>central</id>
-        <name>Firstcloud</name>
-        <url>http://18.170.217.163:8082/artifactory/example-repo-local</url>
+        <name>jfrog-releases</name>
+        <url>http://18.170.217.163:8081/artifactory/Firstcloud</url>
     </repository>
     <snapshotRepository>
-        <id>central</id>
-        <name>S42-Batch-snapshots</name>
-        <url>http://18.170.217.163:8082/artifactory/example-repo-local/</url>
+        <id>snapshots</id>
+        <name>jfrog-snapshots</name>
+        <url>http://18.170.217.163:8081/artifactory/Firstcloud</url>
     </snapshotRepository>
 </distributionManagement>
-
  <build>
     <plugins>
         <plugin>
