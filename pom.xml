@@ -28,12 +28,12 @@
     <repository>
         <id>central</id>
         <name>Firstcloud</name>
-        <url>http://18.223.120.181:8081/artifactory/vmtutes-repo</url>
+        <url>http://18.170.217.163:8082/artifactory/example-repo-local</url>
     </repository>
     <snapshotRepository>
         <id>central</id>
         <name>S42-Batch-snapshots</name>
-        <url>http://18.223.120.181:8081/artifactory/vmtutes-repo</url>
+        <url>http://18.170.217.163:8082/artifactory/example-repo-local/</url>
     </snapshotRepository>
 </distributionManagement>
 
